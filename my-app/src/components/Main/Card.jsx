@@ -1,4 +1,3 @@
-import data from "../../helpers/data"
 
 
 const Card = (data) => {
@@ -9,6 +8,12 @@ const Card = (data) => {
       </div>
       <div className="date">
         <h1>{data.date}</h1>
+      </div>
+      <img src={data.image} alt="picture" />
+      <div className="card-over">
+        <p>
+          {data.desc}
+        </p>
       </div>
 
    
